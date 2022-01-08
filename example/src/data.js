@@ -105,7 +105,7 @@ export const CVData = {
           },
           {
             title: 'TOEIC / 2019',
-            rightSide: '8.43',
+            rightSide: '960',
           },
           {
             title: 'Genius Upskill Scholarship / 2019',
