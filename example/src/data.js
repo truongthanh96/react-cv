@@ -1,24 +1,23 @@
 
 export const CVData = {
     personalData: {
-      name: 'John Doe',
-      title: 'Senior Software Developer',
-      image: 'https://bulma.io/images/placeholders/128x128.png',
+      name: 'Phan Truong Thanh',
+      title: 'Data Engineer',
+      image: 'https://media-exp1.licdn.com/dms/image/C5603AQFmA6-YcpFWCA/profile-displayphoto-shrink_400_400/0/1623139850601?e=1646870400&v=beta&t=QEVUUbgVprIeFZTp1kaJC_n_XiAKMHEy4866SsgPbxo',
       contacts: [
-        { type: 'email', value: 'john@example.com' },
-        { type: 'phone', value: '+00 (123) 456 78 90' },
-        { type: 'location', value: 'New York' },
-        { type: 'website', value: 'example.com' },
-        { type: 'linkedin', value: 'linkedin.com/in/notexists' },
-        { type: 'twitter', value: 'twitter.com/404' },
-        { type: 'github', value: 'github.com/404' }
+        { type: 'email', value: 'truongthanh.phan1996@gmail.com' },
+        { type: 'phone', value: '##########' },
+        { type: 'location', value: 'Ho Chi Minh city' },
+        { type: 'website', value: '1m8.dev' },
+        { type: 'linkedin', value: 'linkedin.com/in/truongthanhphan1996' },
+        { type: 'github', value: 'github.com/truongthanh96' }
       ]
     },
     sections: [
       {
         type: 'text',
         title: 'Career Profile',
-        content: 'When I was child, I always want to be a developer. I think I am now. Culpa proident ad officia minim Lorem sint excepteur irure culpa nisi aliquip nostrud.Laborum voluptate nostrud fugiat occaecat proident veniam excepteur pariatur amet ex sit.Anim aliquip do in commodo adipisicing.Nulla adipisicing nisi enim ullamco sunt veniam.Ullamco labore sunt Lorem veniam id et Lorem magna eiusmod aute. Aliquip minim est consectetur anim mollit aliqua ex elit do et nulla do. Cupidatat ad sunt cillum sint consectetur sunt cillum eiusmod ad esse aliqua. Aute anim elit amet in duis aute ipsum deserunt qui deserunt officia excepteur veniam. Et laboris nostrud est ipsum nulla fugiat deserunt magna velit irure. Ullamco duis ut magna ea tempor enim in ipsum.',
+        content: 'Experienced in building Java Server using Spring. Understand Javascript strongly with good knowledge about nodejs, nwjs. Open mindset, hesitated about new technology, have passion in AR game.C++ and javascript is my favorite language.',
         icon: 'usertie'
       },
       {
@@ -27,69 +26,68 @@ export const CVData = {
         icon: 'graduation',
         items: [
           {
-            title: 'Computer Engineering (BS)',
+            title: 'University of Information Technology - Ho Chi Minh National University',
             authority: 'University',
-            authorityWebSite: 'https://sample.edu',
-            rightSide: '2013 - 2017'
-          },
-          {
-            title: 'Some Department (PHD)',
-            authority: 'Another University',
-            authorityWebSite: 'https://sample.edu',
-            rightSide: '2017 - Present'
+            authorityWebSite: 'https://www.uit.edu.vn/',
+            rightSide: '2014 - 2018'
           }
         ]
       },
       {
         type: 'experiences-list',
         title: 'Experiences',
-        description: 'Optional',
+        // description: 'Optional',
         icon: 'archive',
         items: [
           {
-            title: 'Lead Software Developer',
-            company: 'Some Company Example INC',
-            description: 'I\'m working as a lead developer yeeeey!',
-            companyWebSite: 'http://somecompanyexample.com',
+            title: 'Data Engineer',
+            company: 'Quod AI',
+            description: 'Building pipeline to transform Git repositories into a searchable repositories with context',
+            companyWebSite: 'http://quod.ai/',
             companyMeta: '',
-            datesBetween: '2017.10 - Present',
-            descriptionTags: ['Javascript', 'React']
+            datesBetween: '2020.02 - Present'
           },
           {
-            title: 'Software Developer',
-            company: 'Some Company Example INC',
-            description: 'I\'m using ReactJS and working as a front-end developer',
-            companyWebSite: 'http://somecompanyexample.com',
-            companyMeta: 'Little info about company',
-            datesBetween: '2016.8 - 2017.10'
+            title: 'BigData Developer',
+            company: 'VCCorp',
+            description: 'Building personalized news recommender system for genk.vn, kenh14.vn, cafebiz.vn using Python, Apache Spark, Tensorflow, PyTorch',
+            companyWebSite: 'https://vccorp.vn/',
+            companyMeta: '',
+            datesBetween: '2018.07 - 2020.01'
           },
           {
-            title: 'Intern',
-            company: 'Some Software Example INC',
-            description: 'I was warming up.',
-            companyWebSite: 'http://someexamplecompany.com',
-            companyMeta: 'SF USA',
-            datesBetween: '2012.06 - 2012.10'
+            title: 'UCC Contestant',
+            company: 'Zalo - VNG',
+            description: 'Creating a video sharing server which is able to serve million of users using Java, Redis, Kyoto Cabinet, RabbitMQ',
+            companyWebSite: 'https://www.vng.com.vn/',
+            companyMeta: '',
+            datesBetween: '2017.06 - 2017.09'
+          },
+          {
+            title: 'Developer',
+            company: 'Brumob',
+            description: 'Creating VNUF website and Game, both backend and frontend using Java and HTML, CSS, JS',
+            companyWebSite: 'https://brumob.com',
+            companyMeta: '',
+            datesBetween: '2015.11 - 2017.02'
           }
         ]
       },
-      {
-        type: 'projects-list',
-        title: 'Projects',
-        description: 'Optional',
-        icon: 'tasks',
-        groups: [
-          {
-            sectionHeader: 'Company Name',
-            description: 'Optional',
-            items: [
-              { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-              { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-              { title: 'Project', projectUrl: 'optional', description: 'Optional' }
-            ]
-          }
-        ]
-      },
+      // {
+      //   type: 'projects-list',
+      //   title: 'Projects',
+      //   // description: 'Optional',
+      //   icon: 'tasks',
+      //   groups: [
+      //     {
+      //       sectionHeader: 'QuodAI',
+      //       // description: 'Optional',
+      //       items: [
+      //         { title: 'Project', projectUrl: 'optional', description: 'Optional' },
+      //       ]
+      //     }
+      //   ]
+      // },
       {
         type: 'common-list',
         title: 'Conferences & Certificates',
@@ -97,20 +95,31 @@ export const CVData = {
         icon: 'comments',
         items: [
           {
-            title: 'Some Conferences / 2019',
-            authority: 'SomeConf',
-            authorityWebSite: 'https://www.someconf.somesome'
+            title: 'Software Engineer excellent degree / 2019',
+            authority: 'UIT'
           },
           {
-            title: 'Some Conferences / 2019',
-            authority: 'SomeConf',
-            authorityMeta: 'Speaker',
-            authorityWebSite: 'https://www.someconf.somesome',
-            rightSide: 'test'
+            title: 'GPA / 2019',
+            rightSide: '8.43',
+            authority: 'UIT'
           },
           {
-            title: 'Some Conferences / 2012',
-            authorityMeta: 'Speaker'
+            title: 'TOEIC / 2019',
+            rightSide: '8.43',
+          },
+          {
+            title: 'Genius Upskill Scholarship / 2019',
+            authority: 'Vietnam Social Health Revolution (VSHR)'
+          },
+          {
+            title: 'GameHackathon / 2017',
+            rightSide: 'Consolation Prize',
+            authority: 'UIT'
+          },
+          {
+            title: 'Microsoft UIT Appstudio  / 2015',
+            rightSide: 'First Prize',
+            authority: 'Microsoft'
           }
         ]
       },
@@ -121,11 +130,7 @@ export const CVData = {
         items: [
           {
             authority: 'English',
-            authorityMeta: 'Professional'
-          },
-          {
-            authority: 'Spanish',
-            authorityMeta: 'Beginner'
+            authorityMeta: 'Immediate'
           }
         ]
       },
@@ -133,14 +138,7 @@ export const CVData = {
         type: 'tag-list',
         title: 'Skills Proficiency',
         icon: 'rocket',
-        items: ['React', 'Javascript', 'CSS', 'SQL', 'SomeTech', 'CoolTech']
-      },
-      {
-        type: 'tag-list',
-        title: 'Hobbies & Interests',
-        icon: 'cubes',
-        items: ['Photography', 'Poetry']
+        items: ['ETL', 'Java', 'Beam', 'SQL', 'Flink', 'ElasticSearch', 'Kubernetes']
       }
     ]
   }
-  
